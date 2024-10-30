@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen UX</title>
+    <link rel="stylesheet" href="C:\Users\Paola Cardenas\Documents\htpp Ux Proyecto\css\estilo examen td.css">
+    <link rel="stylesheet" href="C:\Users\Paola Cardenas\Documents\htpp Ux Proyecto\Imaagen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+<nav>
+    <label class="logo">Chococao</label>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Encargar</a></li>
+        <li><a href="">Cotizar</a></li>
+        <li><a href="">Contacto</a></li>
+    </ul>
+    </nav>
+
+<section class="hero">
+        <div class="hero-overlay">
+        <h1>CHOCOCAO</h1>
+        <h2>Chocolotaría de tradición ancestral</h2>
+        </div>
+    </section>
+
+<section class="benefits-banner">
+        <div class="banner-content">
+        <h2>Beneficios del Cacao Artesanal para tu Salud</h2>
+        <p>El cacao artesanal es rico en antioxidantes y nutrientes esenciales. Descubre cómo su consumo puede mejorar tu bienestar.</p>
+        <div class="benefits">
+            <div class="benefit-item">
+            <h3>❤️ Salud Cardiovascular</h3>
+            <p>El cacao ayuda a mejorar la circulación y reducir el riesgo de enfermedades del corazón.</p>
+            </div>
+            <div class="benefit-item">
+            <h3>🧠 Aumento de Energía y Estado de Ánimo</h3>
+            <p>Rico en teobromina, el cacao te da un impulso natural de energía y mejora tu estado de ánimo.</p>
+            </div>
+            <div class="benefit-item">
+            <h3>🛡️ Propiedades Antioxidantes</h3>
+            <p>Sus antioxidantes ayudan a combatir el estrés oxidativo y protegen tu piel y células.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+<div class="carousel">
+        <div class="carousel__images">
+            <img src="https://ideogram.ai/assets/image/lossless/response/W5ppNs_RRbWzrIw2PHCcvA" alt="Imagen 1">
+            <img src="https://ideogram.ai/assets/image/lossless/response/fUWbVqBmRoC79QDzaWUeKg" alt="Imagen 2">
+            <img src="https://ideogram.ai/assets/image/lossless/response/c1ZfnxtZQzaArNP6MYrtvQ" alt="Imagen 3">
+            <img src="https://ideogram.ai/assets/progressive-image/balanced/response/RW0AXEOIQ-iHQL_IukqnUg" alt="Imagen 4">
+        </div>
+    </div>
+
+<section class="secondary-content">
+        <div class="card">
+            <div class="icon">🌱</div>
+            <h3>Amigable con el Medioambiente</h3>
+            <p>Este producto está diseñado con materiales sostenibles para minimizar el impacto en el planeta.</p>
+        </div>
+    
+        <div class="card">
+            <div class="icon">🎨</div>
+            <h3>Artesanía</h3>
+            <p>Producto hecho a mano, reflejando autenticidad y calidad en cada pieza elaborada.</p>
+        </div>
+    
+        <div class="card">
+            <div class="icon">🚚</div>
+            <h3>Servicio de Despacho</h3>
+            <p>Contamos con un servicio de despacho rápido y seguro hasta la puerta de tu hogar.</p>
+        </div>
+    </section>
+
+<section class="seccionCalendario">
+    <div class="calendar-container">
+        <input type="checkbox" id="toggle-calendar" class="toggle-calendar" />
+        <label for="toggle-calendar" class="toggle-label">Reservar Fecha</label>
+    
+        <div class="calendar">
+        <div class="month">
+            <h2>Octubre 2024</h2>
+        </div>
+        <div class="weekdays">
+            <div>Dom</div><div>Lun</div><div>Mar</div><div>Mié</div><div>Jue</div><div>Vie</div><div>Sáb</div>
+        </div>
+        <div class="days">
+            <div></div><div></div><div></div><div></div><div></div><div></div> <!-- Espacios vacíos antes del día 1 -->
+            <!-- Días del mes -->
+            <label><input type="checkbox" /><span>1</span></label>
+            <label><input type="checkbox" /><span>2</span></label>
+            <label><input type="checkbox" /><span>3</span></label>
+            <label><input type="checkbox" /><span>4</span></label>
+            <label><input type="checkbox" /><span>5</span></label>
+            <label><input type="checkbox" /><span>6</span></label>
+            <label><input type="checkbox" /><span>7</span></label>
+            <label><input type="checkbox" /><span>8</span></label>
+            <label><input type="checkbox" /><span>9</span></label>
+            <label><input type="checkbox" /><span>10</span></label>
+            <label><input type="checkbox" /><span>11</span></label>
+            <label><input type="checkbox" /><span>12</span></label>
+            <label><input type="checkbox" /><span>13</span></label>
+            <label><input type="checkbox" /><span>14</span></label>
+            <label><input type="checkbox" /><span>15</span></label>
+            <label><input type="checkbox" /><span>16</span></label>
+            <label><input type="checkbox" /><span>17</span></label>
+            <label><input type="checkbox" /><span>18</span></label>
+            <label><input type="checkbox" /><span>19</span></label>
+            <label><input type="checkbox" /><span>20</span></label>
+            <label><input type="checkbox" /><span>21</span></label>
+            <label><input type="checkbox" /><span>22</span></label>
+            <label><input type="checkbox" /><span>23</span></label>
+            <label><input type="checkbox" /><span>24</span></label>
+            <label><input type="checkbox" /><span>25</span></label>
+            <label><input type="checkbox" /><span>26</span></label>
+            <label><input type="checkbox" /><span>27</span></label>
+            <label><input type="checkbox" /><span>28</span></label>
+            <label><input type="checkbox" /><span>29</span></label>
+            <label><input type="checkbox" /><span>30</span></label>
+            <label><input type="checkbox" /><span>31</span></label>
+
+            
+        </div>
+        </div>
+    </div>
+</section>
+
+<section class="seccionFooter">
+    <footer>
+        <div class="footerCont">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            </div>
+        </div>  
+        <div class="footerNav">
+            <ul>  
+                <li><a href="">Home</a></li>
+                <li><a href="">Noticias</a></li>
+                <li><a href="">Nosotros</a></li>
+                <li><a href="">Contactanos</a></li>
+                <li><a href="">Alianzas</a></li>
+            </ul>
+        </div>
+        <div class="footerBtn">
+            <p>Copyright &copy; Designed by <span class="desogner">Rene V Navarro</span></p>
+        </div>
+    </footer>
+
+</section>
+
+</body>
+</html>
